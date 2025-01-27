@@ -1,1 +1,1 @@
-# Proyectos y tareas realizadas en el curso de especialización en I.A. y Big Data
+# A.I. and Big Data specialization projects and assignments.
