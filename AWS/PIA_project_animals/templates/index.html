@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Fun Facts</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Discover Fun Animal Facts!</h1>
+    <!-- Form to upload an image for analysis -->
+    <form id="uploadForm" method="POST" enctype="multipart/form-data">
+        <!-- Label for the file input field -->
+        <label for="image">Upload an image:</label><br>
+        <!-- File input to select an image from the user's device (accepts any image type) -->
+        <input type="file" id="image" name="image" accept="image/*" required><br>
+        <!-- Submit button to send the form -->
+        <button type="submit">Analyze</button>
+    </form>
+
+    <!-- Div where the results of the analysis (image URL, detected animals, and fun facts) will be displayed -->
+    <div id="output"></div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

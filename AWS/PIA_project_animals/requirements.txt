@@ -1,0 +1,6 @@
+flask # Framework web
+boto3 # AWS SDK para interactuar con S3 y Rekognition
+werkzeug  # Manejo de archivos y utilidades para Flask
+mistralai  # Cliente de Mistral para generar respuestas de AI
+requests  # Para interactuar con APIs como Mistral
+python-dotenv  # Para manejar variables de entorno desde el archivo .env
